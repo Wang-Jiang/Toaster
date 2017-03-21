@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toasterTextColor">#EEEEEE</color>
+    <color name="toasterColorNormal">#444444</color>
+    <color name="toasterColorSuccess">#008D4C</color>
+    <color name="toasterColorError">#D73925</color>
+    <color name="toasterColorWarning">#E08E0B</color>
+    <color name="toasterColorInfo">#00ACD6</color>
+    <color name="toasterColorPrimary">#367FA9</color>
+</resources>

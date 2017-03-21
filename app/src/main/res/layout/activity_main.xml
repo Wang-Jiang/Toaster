@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    tools:context="space.wangjiang.toastersimple.MainActivity">
+
+    <Button
+        android:id="@+id/system_default_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="system_default_toast" />
+
+    <Button
+        android:id="@+id/success_toaster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="success_toaster" />
+
+    <Button
+        android:id="@+id/warning_toaster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="warning_toaster" />
+
+    <Button
+        android:id="@+id/error_toaster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="error_toaster" />
+
+    <Button
+        android:id="@+id/normal_toaster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="normal_toaster" />
+
+    <Button
+        android:id="@+id/info_toaster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="info_toaster" />
+
+    <Button
+        android:id="@+id/primary_toaster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="primary_toaster" />
+
+    <Button
+        android:id="@+id/custom_toaster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="custom_toaster" />
+
+
+</LinearLayout>
