@@ -22,7 +22,7 @@ Add it in your root build.gradle at the end of repositories:
 			...
 			maven { url 'https://jitpack.io' }
 		}
-	}Copy
+	}
 
 Add the dependency
 
@@ -57,6 +57,12 @@ Toaster.success(context, "Yep,it's pretty useful!", Toaster.LENGTH_SHORT).show()
 	<img src="SCREENSHOT/screenshot-05.png" width="480"><br>
 	<img src="SCREENSHOT/screenshot-06.png" width="480"><br>
 </div>
+
+你还可以替换掉默认的图片
+
+```java
+ Toaster.success(context, getResources().getDrawable(R.drawable.ic_coffee_cup), "替换了默认的图片", Toaster.LENGTH_SHORT).show();
+```
 
 ## 注意事项
 
